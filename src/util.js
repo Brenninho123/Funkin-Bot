@@ -19,7 +19,7 @@ const distance = (a, b) => {
 const closest = (word, candidates, maxDistance = 2) => {
   let best = null;
   let bestDistance = maxDistance + 1;
-  for (const candidate of candidates) {.
+  for (const candidate of candidates) {
     const d = distance(word, candidate);
     if (d < bestDistance) {
       best = candidate;
