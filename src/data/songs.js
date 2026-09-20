@@ -1,0 +1,292 @@
+module.exports = {
+  tutorial: {
+    name: 'Tutorial',
+    artist: 'Kawai Sprite',
+    bpm: '100',
+    level: 'tutorial',
+    opponent: 'Girlfriend',
+    stage: 'mainStage',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 0, normal: 0, hard: 1 }
+  },
+  bopeebo: {
+    name: 'Bopeebo',
+    artist: 'Kawai Sprite',
+    bpm: '100',
+    level: '1',
+    opponent: 'Daddy Dearest',
+    stage: 'mainStage',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 1, hard: 2 },
+    variations: ['erect', 'pico']
+  },
+  fresh: {
+    name: 'Fresh',
+    artist: 'Kawai Sprite',
+    bpm: '120',
+    level: '1',
+    opponent: 'Daddy Dearest',
+    stage: 'mainStage',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 1, hard: 2 },
+    variations: ['erect', 'pico']
+  },
+  dadbattle: {
+    name: 'DadBattle',
+    artist: 'Kawai Sprite',
+    bpm: '180',
+    level: '1',
+    opponent: 'Daddy Dearest',
+    stage: 'mainStage',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 2, hard: 3 },
+    variations: ['erect', 'pico']
+  },
+  spookeez: {
+    name: 'Spookeez',
+    artist: 'Kawai Sprite',
+    bpm: '150',
+    level: '2',
+    opponent: 'Skid and Pump',
+    stage: 'spookyMansion',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 1, hard: 2 },
+    variations: ['erect', 'pico']
+  },
+  south: {
+    name: 'South',
+    artist: 'Kawai Sprite',
+    bpm: '165',
+    level: '2',
+    opponent: 'Skid and Pump',
+    stage: 'spookyMansion',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 2, hard: 2 },
+    variations: ['erect', 'pico']
+  },
+  monster: {
+    name: 'Monster',
+    artist: 'Bassetfilms',
+    bpm: '95-132 (changes)',
+    level: '2',
+    opponent: 'Monster',
+    stage: 'spookyMansion',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 2, hard: 2 }
+  },
+  pico: {
+    name: 'Pico',
+    artist: 'Kawai Sprite',
+    bpm: '150',
+    level: '3',
+    opponent: 'Pico',
+    stage: 'phillyTrain',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 2, hard: 2 },
+    variations: ['erect', 'pico']
+  },
+  'philly-nice': {
+    name: 'Philly Nice',
+    artist: 'Kawai Sprite',
+    bpm: '175',
+    level: '3',
+    opponent: 'Pico',
+    stage: 'phillyTrain',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 2, hard: 3 },
+    variations: ['erect', 'pico']
+  },
+  blammed: {
+    name: 'Blammed',
+    artist: 'Kawai Sprite',
+    bpm: '165',
+    level: '3',
+    opponent: 'Pico',
+    stage: 'phillyTrain',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 2, hard: 3 },
+    variations: ['erect', 'pico']
+  },
+  'satin-panties': {
+    name: 'Satin Panties',
+    artist: 'Kawai Sprite',
+    bpm: '110',
+    level: '4',
+    opponent: 'Mommy Mearest',
+    stage: 'limoRide',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 2, hard: 2 },
+    variations: ['erect']
+  },
+  high: {
+    name: 'High',
+    artist: 'Kawai Sprite',
+    bpm: '125',
+    level: '4',
+    opponent: 'Mommy Mearest',
+    stage: 'limoRide',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 2, hard: 3 },
+    variations: ['erect']
+  },
+  milf: {
+    name: 'M.I.L.F',
+    artist: 'Kawai Sprite',
+    bpm: '180',
+    level: '4',
+    opponent: 'Mommy Mearest',
+    stage: 'limoRide',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 2, normal: 3, hard: 4 }
+  },
+  cocoa: {
+    name: 'Cocoa',
+    artist: 'Kawai Sprite',
+    bpm: '100',
+    level: '5',
+    opponent: 'Parents',
+    stage: 'mallXmas',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 2, hard: 2 },
+    variations: ['erect', 'pico']
+  },
+  eggnog: {
+    name: 'Eggnog',
+    artist: 'Kawai Sprite',
+    bpm: '150',
+    level: '5',
+    opponent: 'Parents',
+    stage: 'mallXmas',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 2, hard: 3 },
+    variations: ['erect', 'pico']
+  },
+  'winter-horrorland': {
+    name: 'Winter Horrorland',
+    artist: 'Bassetfilms',
+    bpm: '159',
+    level: '5',
+    opponent: 'Monster',
+    stage: 'mallEvil',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 2, hard: 2 }
+  },
+  senpai: {
+    name: 'Senpai',
+    artist: 'Kawai Sprite',
+    bpm: '144',
+    level: '6',
+    opponent: 'Senpai',
+    stage: 'school',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 1, normal: 2, hard: 3 },
+    variations: ['erect', 'pico']
+  },
+  roses: {
+    name: 'Roses',
+    artist: 'Kawai Sprite',
+    bpm: '120',
+    level: '6',
+    opponent: 'Senpai',
+    stage: 'school',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 2, normal: 3, hard: 4 },
+    variations: ['erect', 'pico']
+  },
+  thorns: {
+    name: 'Thorns',
+    artist: 'Kawai Sprite',
+    bpm: '190',
+    level: '6',
+    opponent: 'Spirit',
+    stage: 'schoolEvil',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 2, normal: 3, hard: 4 },
+    variations: ['erect']
+  },
+  ugh: {
+    name: 'Ugh',
+    artist: 'Kawai Sprite',
+    bpm: '160',
+    level: '7',
+    opponent: 'Tankman',
+    stage: 'tankmanBattlefield',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 2, normal: 3, hard: 4 },
+    variations: ['erect', 'pico']
+  },
+  guns: {
+    name: 'Guns',
+    artist: 'Kawai Sprite',
+    bpm: '185',
+    level: '7',
+    opponent: 'Tankman',
+    stage: 'tankmanBattlefield',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 3, normal: 4, hard: 5 },
+    variations: ['pico']
+  },
+  stress: {
+    name: 'Stress',
+    artist: 'Kawai Sprite',
+    bpm: '178',
+    level: '7',
+    opponent: 'Tankman',
+    stage: 'tankmanBattlefield',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 3, normal: 4, hard: 5 },
+    variations: ['pico']
+  },
+  darnell: {
+    name: 'Darnell',
+    artist: 'Kawai Sprite',
+    bpm: '155',
+    level: 'weekend1',
+    opponent: 'Darnell',
+    stage: 'phillyStreets',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 2, normal: 3, hard: 4 },
+    variations: ['bf', 'erect']
+  },
+  'lit-up': {
+    name: 'Lit Up',
+    artist: 'Kawai Sprite',
+    bpm: '176',
+    level: 'weekend1',
+    opponent: 'Darnell',
+    stage: 'phillyStreets',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 2, normal: 3, hard: 4 },
+    variations: ['bf']
+  },
+  '2hot': {
+    name: '2hot',
+    artist: 'Kawai Sprite',
+    bpm: '182',
+    level: 'weekend1',
+    opponent: 'Darnell',
+    stage: 'phillyStreets',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 3, normal: 4, hard: 5 }
+  },
+  blazin: {
+    name: 'Blazin\'',
+    artist: 'Kawai Sprite',
+    bpm: '180',
+    level: 'weekend1',
+    opponent: 'Darnell',
+    stage: 'phillyBlazin',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 3, normal: 4, hard: 5 }
+  },
+  spaghetti: {
+    name: 'SPAGHETTI (feat. j-hope of BTS) (Clean ver.)',
+    artist: 'LE SSERAFIM (feat. j-hope)',
+    bpm: '111.5',
+    level: 'sserafim',
+    opponent: 'Kazuha',
+    stage: 'sserafim',
+    difficulties: ['easy', 'normal', 'hard'],
+    ratings: { easy: 2, normal: 3, hard: 5 }
+  }
+};

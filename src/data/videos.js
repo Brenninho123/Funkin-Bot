@@ -35,6 +35,8 @@ module.exports = {
       { title: 'How to play for beginners', url: search('Friday Night Funkin how to play beginner guide') },
       { title: 'How to install mods', url: search('Friday Night Funkin how to install mods') },
       { title: 'How to make a mod', url: search('Friday Night Funkin how to make a mod tutorial') },
+      { title: 'Custom songs with the Chart Editor', url: search('Friday Night Funkin chart editor custom song mod tutorial') },
+      { title: 'HScript scripting for mods', url: search('Friday Night Funkin hscript modding tutorial') },
       { title: 'How to chart a song', url: search('Friday Night Funkin chart editor tutorial') },
       { title: 'Psych Engine setup', url: search('Friday Night Funkin Psych Engine tutorial') },
       { title: 'Improve your accuracy', url: search('Friday Night Funkin tips to hit sicks') }
