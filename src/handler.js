@@ -22,8 +22,13 @@ const parse = body => {
   return { name: name.toLowerCase(), args };
 };
 
-const handle = async message => {
-  if (!message.body || message.fromMe) {
+const isOwnChat = (message, selfId) => message.from === message.to || message.to === selfId;
+
+const handle = async (message, selfId) => {
+  if (!message.body) {
+    return;
+  }
+  if (message.fromMe && !isOwnChat(message, selfId)) {
     return;
   }
   const parsed = parse(message.body);

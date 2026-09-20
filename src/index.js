@@ -11,6 +11,6 @@ const client = new Client({
 });
 
 client.on('qr', qr => qrcode.generate(qr, { small: true }));
-client.on('message', handle);
+client.on('message_create', message => handle(message, client.info && client.info.wid._serialized));
 
 client.initialize();
